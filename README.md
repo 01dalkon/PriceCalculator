@@ -11,7 +11,7 @@ Este proyecto es una servicio desarrollado en Spring Boot que proporciona endpoi
 
 
 - **Base de Datos:**
-    - Utiliza una base de datos en memoria H2 sqlite (para una fácil prueba local sin perder los datos de prueba después de cada reinicio), se puede cambiar fácilmente en el application.properties para cualquier otra base de datos.
+    - Utiliza una base de datos en memoria H2 sqlite (para una fácil prueba local sin perder los datos de prueba después de cada reinicio), se puede cambiar fácilmente en el `application.properties` para cualquier otra base de datos.
 
 
 - **Datos de Ejemplo:**
@@ -44,7 +44,7 @@ Este proyecto es una servicio desarrollado en Spring Boot que proporciona endpoi
        ```bash
        curl http://localhost:8080/api/proce-calculator/health
 
-   - Try it out with Docker
+   - Pruébelo con Docker
 
      ```bash
      ./gradlew bootBuildImage --imageName spring-boot-realworld-example-app
