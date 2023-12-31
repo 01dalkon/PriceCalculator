@@ -1,5 +1,6 @@
 package com.zara.pricecalculator.controller;
 
+import com.zara.pricecalculator.routes.Routes;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -11,7 +12,7 @@ import java.util.Map;
 @RestController
 public class HealthController {
 
-    @GetMapping("/health")
+    @GetMapping(path = Routes.HEALTH)
     @ResponseStatus(HttpStatus.OK)
     public Map<Object, Object> health() {
         Map<Object, Object> response = new HashMap<>();
