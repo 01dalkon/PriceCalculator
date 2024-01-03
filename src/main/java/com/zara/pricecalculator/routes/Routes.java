@@ -4,5 +4,5 @@ public class Routes {
 
     public static final String BASE_ROUTER = "/api/price-calculator";
     public static final String HEALTH = "/health";
-    public static final String PRICES = "/prices";
+    public static final String GET_APPLICABLE_PRICES = "/get-applicable-prices";
 }
