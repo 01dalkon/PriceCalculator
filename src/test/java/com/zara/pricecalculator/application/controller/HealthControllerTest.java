@@ -1,4 +1,4 @@
-package com.zara.pricecalculator.controller;
+package com.zara.pricecalculator.application.controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;
